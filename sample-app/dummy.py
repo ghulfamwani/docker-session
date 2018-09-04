@@ -11,6 +11,8 @@ session = Session()
  
 user = User("admin","password")
 session.add(user)
+user = User("accolite","password")
+session.add(user)
  
 # commit the record the database
 session.commit()
